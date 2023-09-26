@@ -14,7 +14,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd Room_temp
 ```
 Create a `.env` file with a `DATABASE_URL` variable that points to a PostgreSQL database. Look at 
 `.env.example` for information on how this should be written.
