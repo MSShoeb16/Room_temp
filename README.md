@@ -1,25 +1,38 @@
-# Rooms_temp
-Project for Teclado blog
+# Room_temp
 
-## Quickstart
+Flask app for REST API with SQL it will measure the temprature of each room and filters like data and room id.
 
-Create a `.env` file with a `DATABASE_URL` variable that points to a PostgreSQL database. Look at `.env.example` for information on how this should be written.
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/MSShoeb16/Room_temp.git
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+Create a `.env` file with a `DATABASE_URL` variable that points to a PostgreSQL database. Look at 
+`.env.example` for information on how this should be written.
 
 Create a Python virtual environment:
 
-```
-python3.10 -m venv .venv
+```bash
+  python3.11.5 -m venv .venv
 ```
 
 Activate the virtual environment and install the dependencies using `pip`:
 
-```
-source .venv/bin/activate  # different on Windows
+```bash
+  .venv/Script/activate
 pip install -r requirements.txt
 ```
-
 Run the app:
 
-```
-flask run
+```bash
+  flask run
 ```
